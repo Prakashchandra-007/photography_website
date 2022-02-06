@@ -1,0 +1,191 @@
+/*for mobile under 471px*/
+@media screen and (max-width:471px) {
+    .heading {
+        font-size: 1.5em;
+        letter-spacing: .1em;
+    }
+    .container {
+        /* width: 100%; */
+    }
+
+
+    /*section about*/
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5% 3%;
+
+    }
+
+    .about-img {
+        background-color: black;
+        height: 50%;
+        width: 50%;
+        max-width: 500px;
+    }
+
+    .about-img img {
+        height: 100%;
+        width: 100%;
+        
+    }
+
+    .about-details {
+        /* margin-left: 4%; */
+        max-width: 80%;
+    }
+
+    #about-me~p {
+        line-height: 1.8em;
+        font-size: 90%;
+        font-weight: 100;
+        margin: 2em 0;
+        
+    }
+
+    /*work*/
+    .work {
+        background-image: url(../images/work-bg.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+       
+        display: block;
+       
+    }
+    .work li {
+        line-height: 1.5em;
+        color: #fff;
+        font-size: 80%;
+        font-weight: 100;
+        margin: 2em 0;
+    
+    }
+    .item4-cats {
+        
+        height: 20%;
+    
+    }
+    /*instagram post*/
+    .insta-picture {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /*contact form*/
+    .form-img{
+    display: none;
+    }
+    .contact-form button {
+        color: #fff;
+        background-color: rgb(29, 27, 27);
+        
+        width: 40%;
+        border: none;
+        text-align: center;
+    
+    }
+    .form-items {
+        font-size: 1em;
+        margin-bottom:.9em;
+        
+    }
+
+    /*footer*/
+
+    .insta-header~ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        justify-content: center;
+    }
+}
+
+/*--------------------------tab --------------------------------*/
+
+
+@media screen and (min-width: 471px) and (max-width:768px) {
+    .heading {
+        font-size: 2em;
+        letter-spacing: .1em;
+    }
+    
+    #about-me~p {
+        line-height: 1.8em;
+        font-size: 100%;
+        font-weight: 100;
+        margin: 2em 0;
+        
+    }
+
+    .about-details {
+        
+        max-width: 40%;
+    }
+
+    .about-img {
+        background-color: black;
+        height: 70%;
+        width: 70%;
+        max-width: 600px;
+    }
+    .about-img img {
+        height: 100%;
+        width: 100%;
+        object-position: top;
+        object-fit: cover;
+    }
+
+    /*instagram post*/
+    .insta-picture {
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items:center;
+    }
+
+
+    /*conatct*/
+    .contact-form input {
+        padding: .5em 1em;
+        width: 70%;
+        font-size: .6em;
+    }
+    .contact-form button {
+        color: #fff;
+        background-color: rgb(29, 27, 27);
+        font-size: .8em;
+        width: 40%;
+        border: none;
+        text-align: center;
+    
+    }
+    .form-items {
+        font-size: .8em;
+        margin-bottom:.9em;
+        
+    }
+    .contact-form {
+        padding: 1.5em;
+    }
+
+
+} 
+
+@media screen and (min-width: 770px) and (max-width:1229px){
+     /*instagram post*/
+     .insta-picture {
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items:center;
+    }
+    
+}
